@@ -126,3 +126,20 @@ if (isInvited) {
 else {
   console.log("I will block my friend");
 }
+
+const comingGuest = true;
+const eatTea = false;
+const eatBiscuits = false;
+
+
+if (comingGuest) {
+  console.log("Would you like some tea?");
+  if (eatTea) {
+    console.log("Would you like biscuits with tea?");
+    if (eatBiscuits === false) {
+      console.log("only tea is ready");
+    }
+  } else {
+    console.log("see star zolsha");
+  }
+}
