@@ -55,18 +55,18 @@ if (price > 6000) {
   const discount = price / 100 * 15;
   const pay = price - discount;
   console.log(pay);
-}else if (price>3000) {
+} else if (price > 3000) {
   const discount = price / 100 * 5;
   const pay = price - discount;
   console.log(pay)
 } else {
-  console.log('You need to pay full amount:',price);
+  console.log('You need to pay full amount:', price);
 }
 
 
 
-const old = 45; 
-const foodPrice= 6000;
+const old = 45;
+const foodPrice = 6000;
 if (old < 12) {
   console.log("you don't need to pay for it");
 } else if (old > 60) {
@@ -74,7 +74,7 @@ if (old < 12) {
   const pay = foodPrice - discount;
   console.log(pay);
 } else {
-  console.log('you have to pay full amount:',foodPrice);
+  console.log('you have to pay full amount:', foodPrice);
 }
 
 
@@ -105,4 +105,24 @@ if (temp < 0) {
   console.log('Cool Cool');
 } else {
   console.log('Hot Hot');
+}
+
+
+const isInvited = false;
+const haveMoney = 100;
+
+if (isInvited) {
+  console.log("go to the party");
+
+  if (isInvited) {
+    console.log("Money in my pocket", haveMoney);
+  }
+  if (haveMoney > 1000) {
+    console.log("I will give you a gift");
+  } else {
+    console.log("I don't give you gift");
+  }
+}
+else {
+  console.log("I will block my friend");
 }
