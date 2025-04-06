@@ -128,18 +128,30 @@ else {
 }
 
 const comingGuest = true;
-const eatTea = false;
-const eatBiscuits = false;
+const eatTea = true;
+const eatBiscuits = true;
 
 
 if (comingGuest) {
   console.log("Would you like some tea?");
   if (eatTea) {
     console.log("Would you like biscuits with tea?");
-    if (eatBiscuits === false) {
+    if (!eatBiscuits) {
       console.log("only tea is ready");
     }
   } else {
     console.log("see star zolsha");
   }
 }
+
+
+const isActiveUseAccount = true;
+const isPremium = false;
+if (isActiveUseAccount) { 
+  if (isPremium) {
+    console.log('see premium feature');
+  } else {
+    console.log("see free version");
+  }
+}
+
