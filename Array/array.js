@@ -13,7 +13,7 @@ console.log(num);
 
 friends.push('rohim');
 console.log(friends);
-friends.pop();
+// friends.pop();
 console.log(friends);
 friends.pop();
 console.log(friends);
@@ -27,3 +27,9 @@ console.log(fr);
 const game = ['pubg', 'coverfire', 'tamplerun'];
 game.shift('pubg');
 console.log(game);
+
+if (friends.includes('masum')) {
+  console.log("I will buy briyani for you.");
+} else {
+  console.log("not");
+}
